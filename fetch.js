@@ -18,8 +18,9 @@ const clickHandler = async()=>{
    }catch (error){
       console.log(error);
    }
-}
-btnEl.addEventListener
+};
+
+btnEl.addEventListener("click",clickHandler);
 
 // btnEl.addEventListener('click',clickHandler);
 // await fetch(`https://reqres.in/api/users`, {
