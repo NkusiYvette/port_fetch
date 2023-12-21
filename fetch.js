@@ -6,7 +6,7 @@ const newUser = {
 };
 const clickHandler = async()=>{
    try{
-      const res = await fetch('https://reqres.in/api/users',
+      const res = await fetch('https://jsonplaceholder.typicode.com/users',
       {
          method: 'POST' ,
          headers: {
