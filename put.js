@@ -10,6 +10,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
     for(let i =0; i< data.length; i++){
         // console.log(data[i].name)
         document.querySelector('ul').
-        insertAdjacentHTML("beforeend",`<li>${data[i].name}</li>`)
+        insertAdjacentHTML("afterend",`<li>${data[i].name}</li>`)
     }
 })

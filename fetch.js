@@ -21,6 +21,7 @@ const clickHandler = async()=>{
 };
 
 btnEl.addEventListener("click",clickHandler);
+const [posts, setPosts] = useState([]);
 
 // btnEl.addEventListener('click',clickHandler);
 // await fetch(`https://reqres.in/api/users`, {
